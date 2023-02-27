@@ -19,13 +19,13 @@ Click the `Use this Template` and provide the new repo details for your action
 Install the dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 Run the tests :heavy_check_mark:
 
 ```bash
-$ npm test
+$ pnpm test
 
  PASS  ./index.test.js
   ✓ throws invalid number (3ms)
@@ -73,7 +73,7 @@ Actions are run from GitHub repos.  Packaging the action will create a packaged 
 Run prepare
 
 ```bash
-npm run prepare
+pnpm run prepare
 ```
 
 Since the packaged index.js is run from the dist folder.
